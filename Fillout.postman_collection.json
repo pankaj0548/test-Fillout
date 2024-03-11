@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "b2aca8d7-37fe-41ec-a653-6de0141a0952",
+		"name": "Fillout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25791469"
+	},
+	"item": [
+		{
+			"name": "Filloutfilter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/cLZojxk94ous/filteredResponses?limit=11&offset=0&filters=[{%22id%22:%22bE2Bo4cGUv49cjnqZ4UnkW%22,%22condition%22:%22equals%22,%22value%22:%22Johnny%22},{%22id%22:%22dSRAe3hygqVwTpPK69p5td%22,%22condition%22:%22equals%22,%22value%22:%222024-02-01%22}]",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cLZojxk94ous",
+						"filteredResponses"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "11"
+						},
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "filters",
+							"value": "[{%22id%22:%22bE2Bo4cGUv49cjnqZ4UnkW%22,%22condition%22:%22equals%22,%22value%22:%22Johnny%22},{%22id%22:%22dSRAe3hygqVwTpPK69p5td%22,%22condition%22:%22equals%22,%22value%22:%222024-02-01%22}]"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Filter API",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3000/api/cLZojxk94ous/filteredResponses?limit=11&offset=0&filters=[{%22id%22:%22bE2Bo4cGUv49cjnqZ4UnkW%22,%22condition%22:%22equals%22,%22value%22:%22Johnny%22},{%22id%22:%22dSRAe3hygqVwTpPK69p5td%22,%22condition%22:%22equals%22,%22value%22:%222024-02-01%22}]",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"cLZojxk94ous",
+								"filteredResponses"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "11"
+								},
+								{
+									"key": "offset",
+									"value": "0"
+								},
+								{
+									"key": "filters",
+									"value": "[{%22id%22:%22bE2Bo4cGUv49cjnqZ4UnkW%22,%22condition%22:%22equals%22,%22value%22:%22Johnny%22},{%22id%22:%22dSRAe3hygqVwTpPK69p5td%22,%22condition%22:%22equals%22,%22value%22:%222024-02-01%22}]"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1002"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3ea-nBMqREy1vKJL7nIe1NUZALVsErI\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 11 Mar 2024 12:26:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response\": {\n        \"responses\": [\n            {\n                \"submissionId\": \"ab9959b2-73e8-4994-85b9-56e780b89ce3\",\n                \"submissionTime\": \"2024-02-27T19:37:08.228Z\",\n                \"lastUpdatedAt\": \"2024-02-27T19:37:08.228Z\",\n                \"questions\": [\n                    {\n                        \"id\": \"4KC356y4M6W8jHPKx9QfEy\",\n                        \"name\": \"Anything else you'd like to share before your call?\",\n                        \"type\": \"LongAnswer\",\n                        \"value\": \"Nothing much to share yet!\"\n                    },\n                    {\n                        \"id\": \"bE2Bo4cGUv49cjnqZ4UnkW\",\n                        \"name\": \"What is your name?\",\n                        \"type\": \"ShortAnswer\",\n                        \"value\": \"Johnny\"\n                    },\n                    {\n                        \"id\": \"dSRAe3hygqVwTpPK69p5td\",\n                        \"name\": \"Please select a date to schedule your yearly check-in.\",\n                        \"type\": \"DatePicker\",\n                        \"value\": \"2024-02-01\"\n                    },\n                    {\n                        \"id\": \"fFnyxwWa3KV6nBdfBDCHEA\",\n                        \"name\": \"How many employees work under you?\",\n                        \"type\": \"NumberInput\",\n                        \"value\": 2\n                    },\n                    {\n                        \"id\": \"jB2qDRcXQ8Pjo1kg3jre2J\",\n                        \"name\": \"Which department do you work in?\",\n                        \"type\": \"MultipleChoice\",\n                        \"value\": \"Engineering\"\n                    },\n                    {\n                        \"id\": \"kc6S6ThWu3cT5PVZkwKUg4\",\n                        \"name\": \"What is your email?\",\n                        \"type\": \"EmailInput\",\n                        \"value\": \"johnny@fillout.com\"\n                    }\n                ],\n                \"calculations\": [],\n                \"urlParameters\": [],\n                \"quiz\": {},\n                \"documents\": []\n            }\n        ],\n        \"totalResponses\": 1,\n        \"pageCount\": 1\n    }\n}"
+				}
+			]
+		}
+	]
+}

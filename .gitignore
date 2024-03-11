@@ -1,0 +1,75 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/lib-cov
+/lib
+/build
+/coverage
+.nyc_output
+
+# Testing
+.nyc_output/
+.history
+coverage
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# VSCode directories
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+__pycache__/
+*.pyc
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+
+# Misc
+*.sass-cache
+*.cache
+*.log
+*.swp
+*.out
+
+# TypeScript
+*.tsbuildinfo
+
+# Babel
+dist/
+lib/
+
+# Jest
+jest-puppeteer.config.js
